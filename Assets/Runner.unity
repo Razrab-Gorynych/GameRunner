@@ -461,6 +461,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir: {x: 5, y: 0, z: 0}
+  JumpForce: 10
+  gravity: -20
 --- !u!136 &2087526302
 CapsuleCollider:
   m_ObjectHideFlags: 0
