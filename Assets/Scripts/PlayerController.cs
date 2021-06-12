@@ -19,7 +19,8 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-        { if (controller.isGrounded)
+        { 
+            if (controller.isGrounded)
                 Jump();
         } 
     }
